@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #212832;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+    height: 5000px;
+    background: #777;
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding: 47px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1160px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.menu-logo {
+    width: 114px;
+    height: 33px;
+}
+
+.nav ul,
+.authorization {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    list-style: none;
+    gap: 55px;
+}
+
+.nav li:first-child {
+    margin-left: 140px;
+}
+
+.nav a,
+.login {
+    text-decoration: none;
+    color: #212832;
+    font-size: 17px;
+}
+
+.nav a:hover,
+.login:hover,
+.menu-language:hover {
+    color: #e77f4f;
+}
+
+.menu-but {
+    background-color: transparent;
+    border: 1px solid #212832;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    width: 102px;
+    height: 40px;
+}
+
+.menu-but:hover {
+    color: #e77f4f;
+    background: #212832;
+}
+
+.menu-language {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    border: 0;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 764px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.desc {
+    background: #a5a5a5;
+    min-width: 600px;
+    height: 535px;
+}
+
+.desc-text {
+    color: #DF6951;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.desc h1 {
+    font-family: "Volkhov";
+    font-size: 84px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.desc p {
+    font-family: "Poppins";
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.find-more {
+    width: 170px;
+    height: 60px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    background: #F1A501;
+    border-radius: 10px;
+    border: none;
+}
+
+.play-demo {
+    border: none;
+    background-color: transparent;
+}
+
+.intro-img {
+    margin-right: 100px;
+    width: 783px;
+}
+
+.best-services {
+    margin: 0 auto;
+    margin-top: 97px;
+    width: 1228px;
+    height: 525px;
+    background: #ffffff;
+}
+
+.section-text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #5E6282;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    font-family: "Volkhov";
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #14183E;
+
+}
+
+.best-services-categories {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 108px;
+    width: 190px;
+    height: 250px;
+    background: #e4e4e4;
+}
+
+.cotegory1 {
+    width: 92px;
+    height: 78px;
+}
+
+.cotegory2 {
+    width: 115px;
+    height: 83px;
+}
+
+.cotegory3 {
+    width: 67px;
+    height: 75px;
+}
+
+.cotegory4 {
+    width: 77px;
+    height: 66px;
+}
+
+.category-title {
+    width: 100%;
+    height: 30px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.category-text {
+    margin-top: -15px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.top-destinations {
+    margin: 0 auto;
+    margin-top: 123px;
+    width: 1102px;
+    height: 617px;
+    background: #e2e2e2;
+}
+
+.directions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+
+.direction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 314px;
+    height: 457px;
+    border-radius: 24px;
+    background: #ffffff;
+}
+
+.photo {
+    width: 314px;
+    height: 331px;
+}
+
+.country-name {
+    margin-left: 20px;
+    font-family: "Poppins";
+    color:#5E6282;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.cost {
+    margin-right: 20px;
+    font-family: "Poppins";
+    color:#5E6282;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.days-trip {
+    display: flex;
+    width: 100%;
+    height: 25px;
+    gap:14px;
+    margin-left: 20px;
+    font-family: "Poppins";
+    color:#5E6282;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.days-trip-photo {
+    width: 20px;
+    height: 20px;
+}
