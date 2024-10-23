@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,7 +13,7 @@
 }
 
 body {
-    background: #212832;
+    background: #2e2020;
 }
 
 .container {
@@ -92,17 +94,18 @@ body {
 }
 
 .intro {
+    position: relative;
     display: flex;
     align-items: center;
     width: 1200px;
     height: 764px;
-    background: #ffffff;
     margin: 0 auto;
+    background: #ffffff;
 }
 
 .desc {
     background: #a5a5a5;
-    min-width: 600px;
+    width: 630px;
     height: 535px;
 }
 
@@ -114,7 +117,6 @@ body {
     line-height: 30px;
     text-align: left;
     text-transform: uppercase;
-
 }
 
 .desc h1 {
@@ -130,10 +132,9 @@ body {
     font-size: 16px;
     font-weight: 400;
     text-align: left;
-
 }
 
-.find-more {
+.but-find-more {
     width: 170px;
     height: 60px;
     margin-top: 30px;
@@ -144,13 +145,33 @@ body {
     border: none;
 }
 
-.play-demo {
+.but-stop {
+    position: absolute;
+    color: white;
+    background: #DF6951;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 44px;
+    width: 52px;
+    height: 52px;
     border: none;
-    background-color: transparent;
+}
+
+.a {
+    width: 100px;
+    font-family: "Poppins";
+    font-size: 17px;
+    color: #686D77;
+    position: absolute;
+    margin-top: -22px;
+    ;
+    margin-left: 70px;
 }
 
 .intro-img {
-    margin-right: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 783px;
 }
 
@@ -167,7 +188,6 @@ body {
     justify-content: center;
     width: 100%;
     font-family: "Poppins", sans-serif;
-    text-align: center;
     font-weight: 700;
     font-size: 18px;
     color: #5E6282;
@@ -183,7 +203,6 @@ body {
     font-weight: 700;
     font-size: 50px;
     color: #14183E;
-
 }
 
 .best-services-categories {
@@ -228,7 +247,6 @@ body {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-
 }
 
 .category-text {
@@ -271,31 +289,29 @@ body {
 .country-name {
     margin-left: 20px;
     font-family: "Poppins";
-    color:#5E6282;
+    color: #5E6282;
     font-size: 18px;
     font-weight: 400;
     text-align: left;
-
 }
 
 .cost {
     margin-right: 20px;
     font-family: "Poppins";
-    color:#5E6282;
+    color: #5E6282;
     font-size: 18px;
     font-weight: 400;
     text-align: left;
-
 }
 
 .days-trip {
     display: flex;
     width: 100%;
     height: 25px;
-    gap:14px;
+    gap: 14px;
     margin-left: 20px;
     font-family: "Poppins";
-    color:#5E6282;
+    color: #5E6282;
     font-size: 16px;
     font-weight: 400;
 }
@@ -303,4 +319,362 @@ body {
 .days-trip-photo {
     width: 20px;
     height: 20px;
+}
+
+.book-trip {
+    display: flex;
+    margin: 0 auto;
+    gap: 118px;
+    margin-top: 186px;
+    width: 1133px;
+    height: 480px;
+    background: #e4e4e4;
+}
+
+.book-trip-easy-steps {
+    width: 511px;
+    height: 480px;
+}
+
+.book-trip h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.book-trip h1 {
+    text-align: left;
+}
+
+.values {
+    margin-top: -17px;
+}
+
+.value {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    margin-top: 48px;
+}
+
+.value-img {
+    width: 52px;
+    height: 52px;
+}
+
+.value-title {
+    width: 100%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.92px;
+    text-align: left;
+    color: #5E6282;
+}
+
+.value-text {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.92px;
+    text-align: left;
+    color: #5E6282;
+}
+
+.travel-card {
+    display: flex;
+    align-items: flex-end;
+    width: 504px;
+    height: 460px;
+}
+
+.trip-card {
+    width: 370px;
+    height: 390px;
+    border-radius: 26px;
+    background: #ffffff;
+}
+
+.trip-card-img {
+    margin-top: 19px;
+    margin-left: 25px;
+}
+
+.trip-title {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    color: #080809;
+}
+
+.trip-text {
+    margin-top: 12px;
+    margin-left: 25px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    color: #84829A;
+}
+
+.trip-icon-img {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.trip-icon {
+    width: 36px;
+    height: 36px;
+    margin-left: 18px;
+}
+
+.people {
+    margin-top: 15px;
+    margin-left: 25px;
+    font-family: "Poppins";
+    color: #84829A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.city-img {
+    margin-right: 15px;
+}
+
+.heart {
+    margin-left: 134px;
+}
+
+.mini-trip-card {
+    margin-top: 287px;
+    margin-left: 843px;
+    display: flex;
+    gap: 10px;
+    width: 263px;
+    height: 125px;
+    border-radius: 18px;
+    background: #b97d7d;
+    position: absolute;
+}
+
+.mini-img {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.mini-title {
+    margin-top: 15px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.43px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
+}
+
+.mini-trip-title {
+    margin-top: 5px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.41px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+}
+
+.mini-text {
+    margin-top: 13px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.43px;
+    letter-spacing: -0.055em;
+    text-align: left;
+
+}
+
+.mini-text span {
+    color: #8A79DF;
+}
+
+.percent {
+    margin-top: 9px;
+    width: 156px;
+    height: 5px;
+}
+
+.about-us {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 212px;
+    width: 1165px;
+    height: 356px;
+    background: #8A79DF;
+}
+
+.testimonials {
+    width: 409px;
+    height: 356px;
+    background: white;
+}
+
+.testimonials h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.testimonials h1 {
+    text-align: left;
+}
+
+.testimonials-img {
+    margin-top: 82px;
+    width: 82px;
+    height: 12px;
+}
+
+.people-say {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 124px;
+    width: 669px;
+    height: 356px;
+}
+
+.mike-taylor {
+    margin-top: 30px;
+    position: absolute;
+    width: 504px;
+    height: 245px;
+    background: #bbb6b6;
+    border-radius: 10px;
+}
+
+.chris-thomas {
+    margin-top: 110px;
+    margin-left: 66px;
+    width: 504px;
+    height: 245px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.say {
+    margin-top: 28px;
+    margin-left: 34px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #5E6282;
+
+}
+
+.name {
+    margin-top: 36px;
+    margin-left: 34px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    color: #5E6282;
+}
+
+.text {
+    margin-top: 5px;
+    margin-left: 34px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #5E6282;
+}
+
+.people-img {
+    margin-left: -40px;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+}
+
+.arrows-img {
+    margin-top: 130px;
+    width: 14px;
+    height: 72px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 96px;
+    width: 1073px;
+    height: 163px;
+    background: #ffffff;
+}
+
+.subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 124px;
+    width: 1170px;
+    height: 407px;
+    border-radius: 129px 20px 20px 20px ;
+    background: #dfd7f94b;
+}
+
+.subscribe-title {
+    margin-top: 79px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: center;
+    color: #5E6282;
+}
+
+.email {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 31px;
+    width: 21px;
+    height: 18px;
+}
+.your-email {
+    width: 421px;
+    height: 68px;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    text-align: center;
+    color:#39425D;
+    background: white;
+
+}
+
+.but-subscribe {
+    margin-left: 24px;
+    width: 180px;
+    height: 68px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Open Sans";
+    color: white;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23.15px;
+    text-align: center;
 }
