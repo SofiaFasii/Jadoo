@@ -12,20 +12,19 @@
     margin: 0;
 }
 
-body {
-    background: #2e2020;
-}
-
 .container {
     margin: 0 auto;
     width: 1440px;
-    height: 4774px;
-    background: #777;
+    background: #ffffff;
     background-repeat: no-repeat;
 }
 
 .header {
     padding: 47px;
+}
+
+.header * {
+    z-index: 1;
 }
 
 .menu {
@@ -34,7 +33,6 @@ body {
     justify-content: space-between;
     width: 1160px;
     height: 40px;
-    background: rgb(255, 255, 255);
     margin: 0 auto;
 }
 
@@ -62,6 +60,7 @@ body {
     text-decoration: none;
     color: #212832;
     font-size: 17px;
+    transition: 0.2s ;
 }
 
 .nav a:hover,
@@ -79,6 +78,7 @@ body {
     font-size: 17px;
     width: 102px;
     height: 40px;
+    transition: .3s;
 }
 
 .menu-but:hover {
@@ -90,7 +90,19 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 17px;
+    background: none;
     border: 0;
+    transition: .3s;
+}
+
+.decore1 {
+    margin-left: 737px;
+    position: absolute;
+}
+
+.decore2 {
+    margin-left: -10px;
+    position: absolute;
 }
 
 .intro {
@@ -100,23 +112,21 @@ body {
     width: 1200px;
     height: 764px;
     margin: 0 auto;
-    background: #ffffff;
 }
 
 .desc {
-    background: #a5a5a5;
     width: 630px;
     height: 535px;
 }
 
 .desc-text {
+    text-transform: uppercase;
     color: #DF6951;
     font-family: "Poppins";
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
     text-align: left;
-    text-transform: uppercase;
 }
 
 .desc h1 {
@@ -124,6 +134,8 @@ body {
     font-size: 84px;
     font-weight: 700;
     text-align: left;
+    text-shadow: 1px 5px 4px #c2c2c2cc;
+    color: #181E4B;
 }
 
 .desc p {
@@ -132,6 +144,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     text-align: left;
+    color: #5E6282;
 }
 
 .but-find-more {
@@ -143,6 +156,9 @@ body {
     background: #F1A501;
     border-radius: 10px;
     border: none;
+    -webkit-box-shadow: 10px 20px 20px -5px rgba(241, 165, 1, 0.2);
+    -moz-box-shadow: 10px 20px 20px -5px rgba(241, 165, 1, 0.2);
+    box-shadow: 10px 20px 20px -5px rgba(241, 165, 1, 0.2);
 }
 
 .but-stop {
@@ -155,6 +171,9 @@ body {
     width: 52px;
     height: 52px;
     border: none;
+    -webkit-box-shadow: 0px 10px 30px 10px rgba(219, 104, 81, 0.4);
+    -moz-box-shadow: 0px 10px 30px 10px rgba(219, 104, 81, 0.4);
+    box-shadow: 0px 10px 30px 1px rgba(219, 104, 81, 0.4);
 }
 
 .but-stop-text {
@@ -179,7 +198,11 @@ body {
     margin-top: 97px;
     width: 1228px;
     height: 525px;
-    background: #ffffff;
+}
+
+.best-decore {
+    margin-left: 1120px;
+    position: absolute;
 }
 
 .section-text {
@@ -213,33 +236,44 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-top: 108px;
-    width: 190px;
-    height: 250px;
-    background: #e4e4e4;
+    width: 276px;
+    height: 314px;
+    border-radius: 36px;
+    transition: 0.5s;
 }
 
-.cotegory1 {
+.category:hover {
+    transform: scale(1.02);
+    background: #ffffff;
+    -webkit-box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.2);
+    -moz-box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.2);
+    box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.18)
+}
+
+.category-img1 {
     width: 92px;
     height: 78px;
 }
 
-.cotegory2 {
+.category-img2 {
     width: 115px;
     height: 83px;
 }
 
-.cotegory3 {
+.category-img3 {
     width: 67px;
     height: 75px;
 }
 
-.cotegory4 {
+.category-img4 {
     width: 77px;
     height: 66px;
 }
 
 .category-title {
+    margin-top: -45px;
     width: 100%;
     height: 30px;
     font-family: "Open Sans";
@@ -249,11 +283,14 @@ body {
 }
 
 .category-text {
-    margin-top: -15px;
+    margin-top: -60px;
     font-family: "Poppins";
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
+    color: #5E6282;
+    line-height: 26px;
+
 }
 
 .top-destinations {
@@ -261,7 +298,16 @@ body {
     margin-top: 123px;
     width: 1102px;
     height: 617px;
-    background: #e2e2e2;
+}
+
+.top-destinations * {
+    z-index: 1;
+}
+
+.top-decore {
+    margin-top: 310px;
+    margin-left: 1060px;
+    position: absolute;
 }
 
 .directions {
@@ -278,6 +324,9 @@ body {
     height: 457px;
     border-radius: 24px;
     background: #ffffff;
+    -webkit-box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.2);
+    -moz-box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.2);
+    box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.18)
 }
 
 .photo {
@@ -327,7 +376,6 @@ body {
     margin-top: 186px;
     width: 1133px;
     height: 480px;
-    background: #e4e4e4;
 }
 
 .book-trip-easy-steps {
@@ -384,6 +432,7 @@ body {
     align-items: flex-end;
     width: 504px;
     height: 460px;
+
 }
 
 .trip-card {
@@ -391,6 +440,7 @@ body {
     height: 390px;
     border-radius: 26px;
     background: #ffffff;
+    box-shadow: 0px 20px 2em rgba(206, 206, 206, 0.4), 3.5em -60px 9em hsl(203, 100%, 70%, 0.25);
 }
 
 .trip-card-img {
@@ -452,8 +502,11 @@ body {
     width: 263px;
     height: 125px;
     border-radius: 18px;
-    background: #b97d7d;
+    background: #ffffff;
     position: absolute;
+    -webkit-box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.3);
+    -moz-box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.3);
+    box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.3)
 }
 
 .mini-img {
@@ -512,9 +565,7 @@ body {
     margin-top: 212px;
     width: 1165px;
     height: 356px;
-    background: #8A79DF;
 }
-
 .testimonials {
     width: 409px;
     height: 356px;
@@ -549,8 +600,9 @@ body {
     position: absolute;
     width: 504px;
     height: 245px;
-    background: #bbb6b6;
+    background: #ffffff;
     border-radius: 10px;
+    box-shadow: 0px 30px 80px -25px hsla(0, 0%, 77%, 0.7);
 }
 
 .chris-thomas {
@@ -560,6 +612,7 @@ body {
     height: 245px;
     border-radius: 10px;
     background: #ffffff;
+    border: 1px solid #f1f1f19f;
 }
 
 .say {
@@ -608,7 +661,7 @@ body {
     height: 72px;
 }
 
-.logos {
+.logos-img {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -616,7 +669,9 @@ body {
     margin-top: 96px;
     width: 1073px;
     height: 163px;
-    background: #ffffff;
+}
+.subscribe * {
+    z-index: 1;
 }
 
 .subscribe {
@@ -629,6 +684,29 @@ body {
     height: 407px;
     border-radius: 129px 20px 20px 20px;
     background: #dfd7f94b;
+}
+
+.subscribe-decore1 {
+    margin-top: -20px;
+    margin-left: 1140px;
+    position: absolute;
+}
+
+.subscribe-decore2 {
+    margin-left: 901px;
+    position: absolute;
+}
+
+.subscribe-decore3 {
+    margin-top: 43px;
+    margin-right: 820px;
+    position: absolute;
+}
+
+.subscribe-decore4 {
+    margin-top: 330px;
+    margin-left: 1202px;
+    position: absolute;
 }
 
 .subscribe-title {
@@ -684,16 +762,14 @@ body {
     flex-wrap: wrap;
     gap: 82.5px;
     margin: 0 auto;
-    margin-top: 96px;
+    margin-top: 166px;
     width: 1060px;
     height: 370px;
-    background: #cfd3ca;
 }
 
 .company-desc {
     width: 207px;
     height: 133px;
-    background: #9d89ff;
 }
 
 .company-title {
@@ -721,13 +797,11 @@ body {
     gap: 66px;
     width: 474px;
     height: 153px;
-    background: #ffffff;
 }
 
 .column {
     width: 114px;
     height: 153px;
-    background: #48a0009d;
 }
 
 .columns-title {
@@ -763,13 +837,12 @@ body {
 }
 
 .column-nav a:hover {
-    color: rgb(255, 255, 255);
+    color: #8A79DF;
 }
 
 .social-networks {
     width: 214px;
     height: 147px;
-    background: #ffffff;
 }
 
 .social-icons {
@@ -777,7 +850,6 @@ body {
     align-items: center;
     margin-bottom: 25px;
     justify-content: space-between;
-    background: #5E6282;
 }
 
 .social-text {
@@ -804,4 +876,10 @@ body {
 
 .b:hover {
     color: #8A79DF;
+}
+
+.footer-decore {
+    margin-top: -300px;
+    margin-left: 1180px;
+    position: absolute;
 }
