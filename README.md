@@ -1,3 +1,2 @@
 # Jadoo
- 
-https://sofiafasii.github.io/Jadoo/
+ https://sofiafasii.github.io/Jadoo/
