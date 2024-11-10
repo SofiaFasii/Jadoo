@@ -79,6 +79,7 @@
     width: 102px;
     height: 40px;
     transition: .3s;
+    cursor: pointer;
 }
 
 .menu-but:hover {
@@ -93,6 +94,7 @@
     background: none;
     border: 0;
     transition: .3s;
+    cursor: pointer;
 }
 
 .decore1 {
@@ -159,6 +161,7 @@
     -webkit-box-shadow: 10px 20px 20px -5px rgba(241, 165, 1, 0.2);
     -moz-box-shadow: 10px 20px 20px -5px rgba(241, 165, 1, 0.2);
     box-shadow: 10px 20px 20px -5px rgba(241, 165, 1, 0.2);
+    cursor: pointer;
 }
 
 .but-stop {
@@ -174,6 +177,7 @@
     -webkit-box-shadow: 0px 10px 30px 10px rgba(219, 104, 81, 0.4);
     -moz-box-shadow: 0px 10px 30px 10px rgba(219, 104, 81, 0.4);
     box-shadow: 0px 10px 30px 1px rgba(219, 104, 81, 0.4);
+    cursor: pointer;
 }
 
 .but-stop-text {
@@ -241,7 +245,7 @@
     width: 276px;
     height: 314px;
     border-radius: 36px;
-    transition: 0.5s;
+    transition: all 0.5s;
 }
 
 .category:hover {
@@ -326,9 +330,14 @@
     background: #ffffff;
     -webkit-box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.2);
     -moz-box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.2);
-    box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.18)
+    box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.18);
+    cursor: pointer;
+    transition: all .5s;
 }
-
+.direction:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 23px 41px 14px rgba(191, 191, 191, 0.40)
+}
 .photo {
     width: 314px;
     height: 331px;
@@ -654,7 +663,6 @@
     width: 68px;
     height: 68px;
 }
-
 .arrows-img {
     margin-top: 130px;
     width: 14px;
@@ -669,6 +677,20 @@
     margin-top: 96px;
     width: 1073px;
     height: 163px;
+}
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    width: 241px;
+    height: 86px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.logo-img:hover{
+    background:rgb(255, 255, 255);
+    box-shadow: 0px 20px 25px 0px rgba(191, 191, 191, 0.19);
 }
 .subscribe * {
     z-index: 1;
@@ -755,6 +777,7 @@
     font-weight: 600;
     line-height: 23.15px;
     text-align: center;
+    cursor: pointer;
 }
 
 .information {
@@ -860,7 +883,6 @@
     line-height: 24.9px;
     letter-spacing: 0.005em;
     text-align: left;
-
 }
 
 .b {
